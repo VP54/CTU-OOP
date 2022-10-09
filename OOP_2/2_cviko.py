@@ -95,3 +95,13 @@ data = {
 create_user = CreateUsernames()
 
 result = create_user.return_dict()
+
+
+
+import pandas as pd
+
+pd.set_option("display.max_rows", 1500)
+
+df = pd.DataFrame(result)
+
+print(df)
