@@ -83,9 +83,9 @@ def get_result(*objs):
         print('--' * 20)
         print(f"Full queue: ")
 
-        print(f"Gets first out element: \t\t {obj.get()}")
-        print(f"Is queue full?: \t\t\t\t\t\t {obj.full()}")
-        print(f"Is queue empty?: \t\t\t\t\t\t {obj.empty()}")
+        print(f"Gets first out element: \t {obj.get()}")
+        print(f"Is queue full?: \t\t {obj.full()}")
+        print(f"Is queue empty?: \t\t {obj.empty()}")
         print(f"What is the actual size?: \t {obj.size()}")
         print('--' * 20)
 
